@@ -2,6 +2,47 @@
 
 Habit Tracker React is a web application built with React and Redux for efficiently managing daily and weekly habits.
 
+## Live Hosted Website
+
+Visit [Habit Tracker React](https://habit-tracker-app-nine.vercel.app/) to access the live version of the application.
+
+## Getting Started
+
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/OmkarSangaonkar/Habit-Tracker-App
+
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd habit-tracker-react
+
+   ```
+
+3. Install Dependencies:
+
+   ```bash
+   npm install
+
+   ```
+
+4. Start the Development Server:
+
+   ```bash
+   npm run dev
+
+   ```
+
+5. Start the Development Server:
+   ```bash
+   http://localhost:5173
+   ```
+
 ## Components/Today Folder
 
 ### ActionButton.jsx
