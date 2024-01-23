@@ -1,0 +1,92 @@
+/* home.module.css */
+
+.container {
+  margin: auto;
+}
+
+.addHabit {
+  margin: auto;
+  width: fit-content;
+  background-color: #63c5da; /* New background color */
+  padding: 15px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.addHabit input {
+  border: none;
+  background-color: #ffffff; /* New background color */
+  font-weight: 600;
+  outline: none;
+  font-size: 18px; /* Reduced font size */
+  padding: 10px;
+  margin-right: 8px;
+  border-radius: 5px;
+}
+
+.habitCardContainer {
+  width: 80%;
+  margin: auto;
+}
+
+.habitCard {
+  width: 100%;
+  background-color: #ffffff; /* New background color */
+  padding: 20px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out; /* Added transition */
+}
+
+.habitCard:hover {
+  transform: scale(1.05); /* Added hover effect */
+}
+
+.habitCardTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.habitActionName {
+  display: flex;
+  cursor: pointer;
+}
+
+.cardName {
+  font-weight: 700; /* Increased font weight */
+  color: #4e92b7; /* New text color */
+  font-size: 18px; /* Reduced font size */
+  margin-left: 10px;
+}
+
+.weeklyProgress {
+  margin-top: 15px; /* Increased margin top */
+  display: flex;
+  justify-content: space-between;
+}
+
+.habitCardCheckIcon,
+.habitCardCrossIcon {
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Added transition */
+}
+
+.habitCardCheckIcon:hover {
+  background-color: #a4e17e; /* New hover background color */
+}
+
+.habitCardCrossIcon:hover {
+  background-color: #ff7961; /* New hover background color */
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .habitCardContainer {
+    width: 100%;
+  }
+}

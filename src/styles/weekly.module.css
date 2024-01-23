@@ -1,0 +1,60 @@
+/* weekly.module.css */
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.weeklyCard {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0px;
+  padding: 20px;
+  background-color: #ffffff; /* New background color */
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out; /* Added transition */
+}
+
+.weeklyCard:hover {
+  transform: scale(1.05); /* Added hover effect */
+}
+
+.habitTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #8e44ad; /* New text color */
+  display: flex;
+  justify-content: space-between;
+}
+
+.weeklyDate {
+  margin-top: 15px; /* Increased margin top */
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.singleDay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #ecf0f1; /* New background color */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out; /* Added transition */
+}
+
+.singleDay:hover {
+  transform: scale(1.05); /* Added hover effect */
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
